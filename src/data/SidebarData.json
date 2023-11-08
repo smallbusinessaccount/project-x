@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Dashboard",
+        "icon": "BiSolidDashboard"
+    },
+    {
+        "id": 2,
+        "name": "Organization",
+        "icon": "RiOrganizationChart"
+    },
+    {
+        "id": 3,
+        "name": "Users",
+        "icon": "FaUsers"
+    },
+    {
+        "id": 4,
+        "name": "Credential",
+        "icon": "AiFillIdcard"
+    },
+    {
+        "id": 5,
+        "name": "Settings",
+        "icon": "FiSettings"
+    },
+    {
+        "id": 6,
+        "name": "Help Center",
+        "icon": "BiHelpCircle"
+    },
+    {
+        "id": 7,
+        "name": "Logout",
+        "icon": "FiLogOut"
+    }
+]
