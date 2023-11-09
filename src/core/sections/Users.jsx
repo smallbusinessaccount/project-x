@@ -1,10 +1,10 @@
-export default function Dashboard() {
+export default function Users() {
    // const [count, setCount] = useState(0)
 
    return (
       <>
          <div className="p-4 border-2 border-gray-200 rounded-lg ">
-            <h1 className="font-medium pb-4">Dashboard</h1>
+            <h1 className="font-medium pb-4">Users</h1>
             <div className="flex items-center justify-center h-48 rounded bg-gray-100">
             </div>
          </div>
