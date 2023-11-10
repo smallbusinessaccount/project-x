@@ -6,7 +6,7 @@ import { RiOrganizationChart } from "react-icons/ri"
 import { FaUsers } from "react-icons/fa"
 import { AiFillIdcard } from "react-icons/ai"
 import { FiSettings, FiLogOut } from "react-icons/fi"
-import { BrowserRouter as Router, Routes, Route, Link, Outlet, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const FaIconDynamic = ({ type }) => {
   const FaIcon = components[type];
@@ -27,11 +27,16 @@ const components = {
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const openSidebar = () => {
+    setIsOpen(false);
+  }
+
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
   }
+
   const handleClick = (path) => {
-    toggleSidebar();
+    openSidebar();
     handleNavigate(path)
 
   }

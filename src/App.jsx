@@ -4,7 +4,7 @@ import Footer from './core/Footer'
 import React from 'react';
 import Organization from './core/sections/Organization'
 import Dashboard from './core/sections/Dashboard'
-import { BrowserRouter as Router, Routes, Route, Link, Outlet, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Users from './core/sections/Users';
 import Credential from './core/sections/Credential';
 import Settings from './core/sections/Settings';
